@@ -16,23 +16,22 @@ async function onSignIn(user:any) {
   ]);
 }
 
-const styles = StyleSheet.create({
-  container: {alignItems: 'center',
-  justifyContent: 'center'},
 
-});
 function crash1(){
   const test: any = {};
   console.log(test.should.crash);
 }
-
+const a=10;
+function crash2(){
+  let b = 10/0;
+}
 export default function App() {
   useEffect(() => {
     crashlytics().log('App mounted.');
   }, []);
 
   return (
-    <View style={styles.container}>
+    <View >
       <Button
         title="Sign In"
         onPress={() =>
@@ -44,8 +43,11 @@ export default function App() {
           })
         }
       />
-      <Button title="Test Crash" onPress={() => crashlytics().crash()} />
-      <Button title="Crash 2 (Div by 0)" onPress={() => crash1()} />
+      <Button title="Crash 1 (Force crash by crashlytics)" onPress={() => crashlytics().crash()} />
+      <Button title="Crash 2 (undefined crash)" onPress={() => crash1()} />
+      <Button title="Crash 3 (div by 0)" onPress={() => crash2()} />
+      <Button title="Crash 4 (reasigning value to const)" onPress={() => a=0} />
+
     </View>
   );
 }
