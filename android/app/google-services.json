@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347018339152",
+    "firebase_url": "https://flutterbylaxmi.firebaseio.com",
+    "project_id": "flutterbylaxmi",
+    "storage_bucket": "flutterbylaxmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347018339152:android:138e2b8c11e7dc0edac255",
+        "android_client_info": {
+          "package_name": "com.firecrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347018339152-0fvh8mqka9obvvf2kmc62k5dtuo61vhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXxl9ciImUf_LNsPP-u3E3SF91BsPAmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347018339152-0fvh8mqka9obvvf2kmc62k5dtuo61vhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
