@@ -1,4 +1,4 @@
-package com.firecrash;
+package com.nagra.uk.jado;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

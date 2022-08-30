@@ -1,4 +1,4 @@
-package com.firecrash.newarchitecture.modules;
+package com.nagra.uk.jado.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
